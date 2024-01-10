@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 45px;
+  margin-bottom: 4%;
+  font-family: 'Roboto';
+}
+.Notification-container {
+  text-align: center;
+  width: 50%;
+}
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.card-container {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 14px;
+  display: flex;
+  width: 40%;
+  padding: 20px;
+  margin-bottom: 15px;
+}
+img {
+  height: 15px;
+  width: 15px;
+  margin-right: 20px;
+}
+
+.Information-Message {
+  background-color: #0b69ff;
+}
+.Success-Message {
+  background-color: #2dca73;
+}
+.Warning-Message {
+  background-color: #ffb800;
+}
+.Error-Message {
+  background-color: #ff0b37;
+}
+Error-Message{
+    background-color: #ff0b37;
+}
